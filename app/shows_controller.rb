@@ -1,5 +1,5 @@
 
 
 def highest_rating 
-  Show.order(rating: desc)
+  Show.order(rating: :desc)
 end
